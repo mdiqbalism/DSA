@@ -5,7 +5,9 @@ bool checkPalindrome(string str,int i,int j){
 
     //base case 
     if(i > j){
+
         return true;
+        
     }
     
     //condition check 
@@ -16,6 +18,7 @@ bool checkPalindrome(string str,int i,int j){
     }else{
        
         return checkPalindrome(str,i++,j--);
+
     }
 
 }
